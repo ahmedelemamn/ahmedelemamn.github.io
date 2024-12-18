@@ -4,7 +4,6 @@ title: "Understanding SNMP MIBs and OIDs"
 date: 2024-12-17 14:25:00 +0000
 categories: [Networking, SNMP]
 tags: [SNMP, Network Management, Python, OIDs]
-author: Ahmed Elemam
 ---
 
 # Overview
