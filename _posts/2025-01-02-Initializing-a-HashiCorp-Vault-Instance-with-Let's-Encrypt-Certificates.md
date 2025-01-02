@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My HashiCorp Vault journey: Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates"
-date: 2024-01-01 08:25:00 +0000
+date: 2025-01-01 08:25:00 +0000
 categories: [DevOps, Hashicorp]
 tags: [DevOps, Hashicorp, vault]
 ---
