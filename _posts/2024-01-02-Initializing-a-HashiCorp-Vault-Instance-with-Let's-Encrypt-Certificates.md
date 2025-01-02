@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates"
+title: "My HashiCorp Vault journey: Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates"
 date: 2024-01-02 19:25:00 +0000
 categories: [DevOps, Hashicorp]
 tags: [DevOps, Hashicorp, vault]
 ---
+# Introduction
 
-# Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates
+This post documents my journey with HashiCorp Vault as part of my HashiCorp studies. I’ve encountered numerous use cases for secure secret management, particularly when deploying containers and Kubernetes in my homelab. These practices help enhance my DevOps skills and support network automation integrations. 
 
-In this tutorial, I'll guide you through the process of setting up a HashiCorp Vault instance and securing it with a wildcard SSL certificate from Let's Encrypt. We'll be using DNS validation for the certificate and configuring Vault to use the SSL certificate for HTTPS communication.
+## Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates
+
+When starting with HashiCorp Vault, I decided to take on a challenge and use Let’s Encrypt certificates to implement signed certificates from the outset. Below, I’ve outlined the process I followed to get Vault up and running with this configuration. 
 
 ## Prerequisites
 
 1. **Ubuntu 20.04 or later** (or any Linux-based system)
 2. A domain name (In this example, we'll use **Cloudflare** for DNS validation)
-3. **Cloudflare API token** for DNS validation or equivilant
 
 ### Steps
 
