@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding SNMP MIBs and OIDs"
 date: 2024-12-17 14:25:00 +0000
-categories: [Networking, SNMP]
+categories: [Networking, Basics]
 tags: [SNMP, Network Management, Python, OIDs]
 ---
 
