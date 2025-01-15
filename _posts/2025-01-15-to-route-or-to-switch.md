@@ -2,7 +2,7 @@
 layout: post
 title: "To Route or to Switch?"
 date: 2025-01-15 08:25:00 +0000
-categories: [Networking Basics]
+categories: [Networking]
 tags: [Networking, Routing, Switching]
 ---
 
