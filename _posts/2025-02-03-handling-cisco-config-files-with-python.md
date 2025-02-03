@@ -29,7 +29,7 @@ def read_config(file_path):
         lines = file.readlines()
     return lines
 
-config_lines = read_config("cisco_config.txt")
+config_lines = read_config("cisco_config.conf")
 print(config_lines[:10])
 ```
 This function reads a configuration file line by line and stores it in a list.  
@@ -45,7 +45,7 @@ def write_config(file_path, lines):
     with open(file_path, 'w') as file:
         file.writelines("\n".join(lines))
 
-write_config("modified_cisco_config.txt", config_lines)
+write_config("modified_cisco_config.conf", config_lines)
 ```
 
 ---
@@ -119,7 +119,7 @@ def modify_interface_description(config_lines, interface_name, description):
     return modified_config
 
 updated_config = modify_interface_description(config_lines, "GigabitEthernet1", "New uplink")
-write_config("updated_cisco_config.txt", updated_config)
+write_config("updated_cisco_config.conf", updated_config)
 ```
 This script finds the **interface block**, adds a description if missing, or updates it if already present.  
 
@@ -223,7 +223,7 @@ def analyze_cisco_config(file_path):
     print(f"Telnet Enabled: {telnet_enabled}")
     print(security_status)
 
-analyze_cisco_config("cisco_config.txt")
+analyze_cisco_config("cisco_config.conf")
 ```
 This script **automates multiple configuration checks** in a single function.  
 
