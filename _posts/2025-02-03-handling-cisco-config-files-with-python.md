@@ -6,8 +6,6 @@ categories: [Networking, Automation]
 tags: [Networking, Automation, Python]
 ---
 
-# **Handling Cisco Configuration Files with Python**  
-
 Cisco devices store configurations as plain text files, making them easy to read, modify, and analyze with Python. Whether you’re managing routers, switches, or firewalls, automating configuration parsing can **save time, reduce errors, and enforce consistency**.  
 
 In this post, we’ll cover:  
