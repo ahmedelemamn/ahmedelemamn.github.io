@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Managing JSON Files with Python: A Comprehensive Guide"
-date: 2025-02-04 08:25:00 +0000
+date: 2025-02-04 00:00:00 +0000
 categories: [Networking, Automation]
 tags: [Networking, Automation, Python]
 ---
-
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for both humans and machines to read and write. Python provides built-in support for working with JSON through the `json` module, making it a powerful tool for managing structured data.
 
