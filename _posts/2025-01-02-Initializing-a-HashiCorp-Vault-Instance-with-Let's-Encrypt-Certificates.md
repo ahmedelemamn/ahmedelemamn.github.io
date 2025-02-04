@@ -1,15 +1,10 @@
 ---
 layout: post
-title: "My HashiCorp Vault journey: Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates"
+title: "Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates"
 date: 2025-01-01 08:25:00 +0000
 categories: [DevOps, Hashicorp]
 tags: [DevOps, Hashicorp, vault]
 ---
-# Introduction
-
-This post documents my journey with HashiCorp Vault as part of my HashiCorp studies. I’ve encountered numerous use cases for secure secret management, particularly when deploying containers and Kubernetes in my homelab. These practices help enhance my DevOps skills and support network automation integrations. 
-
-## Initializing a HashiCorp Vault Instance with Let's Encrypt Certificates
 
 When starting with HashiCorp Vault, I decided to take on a challenge and use Let’s Encrypt certificates to implement signed certificates from the outset. Below, I’ve outlined the process I followed to get Vault up and running with this configuration. 
 
