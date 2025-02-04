@@ -3,7 +3,8 @@ layout: post
 title: "Handling Jinja Templates with Python"
 date: 2025-02-04 00:00:00 +0000
 categories: [Networking, Automation]
-tags: [Networking, Automation, Python, yaml]
+tags: [Networking, Automation, Python, jinja]
+render_with_liquid: false
 ---
 
 ## 
@@ -187,5 +188,3 @@ When rendering user input, use **sandboxing** to prevent security vulnerabilitie
 ```python
 env = Environment(loader=FileSystemLoader("templates"), autoescape=True)
 ```
-
----
