@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Handling Jinja Templates with Python"
+date: 2025-02-04 00:00:00 +0000
 categories: [Networking, Automation]
 tags: [Networking, Automation, Python, yaml]
 ---
