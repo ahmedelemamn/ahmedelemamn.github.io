@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Basics: A One-Stop Reference Guide"
-date: 2025-02-002 00:00:00 +0000
+date: 2025-02-02 00:00:00 +0000
 categories: [Networking, Automation]
 tags: [Networking, Automation, Python]
 ---
