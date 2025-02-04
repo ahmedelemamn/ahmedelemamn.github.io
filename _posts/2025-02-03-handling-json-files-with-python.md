@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "handling JSON Files with Python"
+title: "Handling JSON Files with Python"
 date: 2025-02-03 05:00:00 +0000
 categories: [Networking, Automation]
 tags: [Networking, Automation, Python]
