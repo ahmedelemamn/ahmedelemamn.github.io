@@ -1,9 +1,9 @@
-layout: post  
-title: "Python Basics for Network Engineering: A One-Stop Reference Guide"  
-date: 2025-02-02 00:00:00 +0000  
-categories: [Networking, Automation]  
-tags: [Networking, Automation, Python]  
-
+---
+layout: post
+title: "Python Basics: A One-Stop Reference Guide"
+date: 2025-02-02 00:00:00 +0000
+categories: [Networking, Automation]
+tags: [Networking, Automation, Python]
 ---
 
 Python’s simplicity and robust libraries have made it a favorite among network engineers for automating tasks, parsing configurations, and managing device inventories. This guide covers essential Python concepts while highlighting practical examples and use cases in network engineering.
@@ -58,7 +58,7 @@ Lists let you manage collections of items—ideal for storing IP addresses, host
 # List of network devices
 devices = ["192.168.1.1", "192.168.1.2", "10.0.0.1"]
 devices.append("10.0.0.2")  # Add a new device IP
-devices.remove("192.168.1.2")  # Remove an offline device
+devices.remove("192.168.1.2")  # Remove a device
 print(devices)
 ```
 
@@ -284,5 +284,4 @@ Beyond these code examples, here are some common networking automation tasks whe
 - **Monitoring & Alerts:** Continuously monitor device statuses and automatically trigger alerts or remedial actions.
 - **Log Parsing & Analysis:** Process log files to detect anomalies, performance issues, or security threats.
 - **Inventory & Asset Management:** Maintain an up-to-date registry of network devices with detailed attributes.
-
 
